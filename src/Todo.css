@@ -1,0 +1,95 @@
+
+.container{
+    margin: auto;
+    max-width: 600px;
+}
+
+.to-do{
+    margin: 10px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal{
+    width: 100vw;
+    height: 100vh;
+    background-color: #e1e1e18c;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardModal{
+    padding: 20px;
+    background-color: white;
+}
+
+.btn-modal{
+    font-size: 2em;
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: lightblue;
+    border-radius: 40px;
+}
+
+.btn-modal:hover{
+    background-color: rgb(135, 196, 216);
+}
+
+.btn-modal:active{
+    background-color: lightblue;
+}
+
+.hide{
+    display: none;
+}
+
+ul{
+    list-style: none;
+    font-size: 1.2em;
+    padding: 0;
+}
+
+.item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px 20px 0px;
+    background-color: #e1e1e1;
+    padding: 10px;
+    border-radius: 5px;
+    color: #1e1e1e;
+}
+
+.card{
+    box-shadow: 2px 3px 5px gray;
+}
+
+.done{
+    text-decoration: line-through;
+}
+
+.btn{
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin-right: 5px;
+
+}
+
+.btn-done{
+    background-color: green;
+    color: #e1e1e1;
+}
+
+.btn-del:active{
+    background-color: red;
+    color: #e1e1e1;
+}
